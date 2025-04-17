@@ -1,3 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     background-color: #2C321B;
+}
+.carlogo{
+    width: 900px;
+}
+.fatherlogindiv{
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    width: 452px;
+}
+.fatherlogin_h1 {
+    font-family: 'Poppins';
+    color: white;
+}
+.fatherlogin_p{
+    color: white;
+    font-family: 'Poppins';
+}
+.fatherlogin_input{
+    background-color: #F0EDFF;
+    font-size: 12px;
+    width: 364px;
+    height: 52px;
+    border-radius: 16px;
+    font-family: 'Poppins';
+    color: black;
+    border: none;
+    margin-bottom: 30px;
+    padding-left: 12px;
+    
+}
+.fatherlogin_button{
+    border: none;
+    border-radius: 16px;
+    width: 124px;
+    height: 52px;
+    background-color: #5038ED;
+    color: white;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+.log_text{
+    width: 156px;
+    color: white;
+    font-family: 'Poltawski Nowy';
+    margin-left: 45px;
+    margin-top: 17px;
+}
+.carlogo {
+    border-radius: 24px;
+}
+.logindiv{
+    width: 452px;
 }
